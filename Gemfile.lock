@@ -1,0 +1,18 @@
+PATH
+  remote: .
+  specs:
+    rss-to-cms (0.0.1)
+      htmlentities (~> 4.3.2)
+      pg (~> 0.17.1)
+
+GEM
+  remote: https://rubygems.org/
+  specs:
+    htmlentities (4.3.2)
+    pg (0.17.1)
+
+PLATFORMS
+  ruby
+
+DEPENDENCIES
+  rss-to-cms!
