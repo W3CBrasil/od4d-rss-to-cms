@@ -4,8 +4,7 @@ require 'rss_reader'
 require 'rss_parser'
 require 'cms_writer'
 
-#rss_url = 'http://feeds.feedburner.com/DadosAbertosParaDesenvolvimentoDaAmricaLatinaECaribePortugus'
-rss_url = 'http://feeds.feedburner.com/OpenDataForDevelopmentInLatinAmericaAndTheCaribbeanEnglish'
+rss_url = ARGV[0]
 
 rss_content = RSSReader.fetch_rss(rss_url)
 
